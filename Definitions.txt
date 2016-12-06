@@ -1,0 +1,24 @@
+Commit = Snapshot of changes since last commit
+Workspace/Working Directory = Folder you're working in
+Index/Staging Area = Indicates what files have changes to be committed
+Local Repository = Record of changes stored on your computer
+Remote Repository = Record of changes stored elsewhere
+
+git init = Create local repository
+git clone <URL> = Connects local repository to a remote repository
+git add <file> or <-A> = Will add files to your index; marks files as ready to be committed
+git rm <file> = Deletes a file
+(Option 1) git commit <-m> = Creates a commit
+(Option 2) git commit = Asks you to create a commit file
+git status = Checks the current status
+git log <--oneline> = Shows a record of all of your commits
+git fetch = Gives updated info about the remote
+git push = Sends your commits to the remote repository
+git pull = Receives commits from the remote repository
+
+
+Branching
+
+"Master" is the default name of your starting branch.
+Merge = Move over commits from one branch to another
+Checkout = Bring a branch or file into working directory
